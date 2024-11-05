@@ -27,9 +27,9 @@ This project demonstrates the creation of an end-to-end application using Google
 -  **YouTube Transcript API**: Ensure you have API access for retrieving video transcripts.
 -  **Google Gini Pro API**: Set up your Google Gini Pro credentials.
 -  Create an `.env` file in the root directory and add your API keys:
-  ```bash
-  GOOGLE_GINI_API_KEY=your_google_gini_pro_api_key
-  ```
+   ```bash
+   GOOGLE_GINI_API_KEY=your_google_gini_pro_api_key
+   ```
 
 4. **Run the Application**:
    Launch the Streamlit app by running the following command:
