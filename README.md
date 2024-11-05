@@ -43,7 +43,7 @@ This project demonstrates the creation of an end-to-end application using Google
 - Enter a YouTube video URL in the provided field within the Streamlit interface.
 
 **Step 2: Retrieve Transcript**
-The app uses the YouTube Transcript API to fetch the video's transcript based on the input URL.
+- The app uses the YouTube Transcript API to fetch the video's transcript based on the input URL.
 
 **Step 3: Customize Summarization Prompt**
 - Modify the summarization prompt to customize the output summary. The default prompt generates a concise summary of around 250 words.
