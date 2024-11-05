@@ -1,4 +1,4 @@
-# YouTube_Transcribe_Summarizer
+# GenAI_YouTube_Transcribe_Summarizer
 
 This project demonstrates the creation of an end-to-end application using Google gini pro to extract transcripts from YouTube videos and summarize their content.
 
