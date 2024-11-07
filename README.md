@@ -5,7 +5,7 @@ This project demonstrates the creation of an end-to-end application using Google
 ## Features
 
 - **YouTube Transcript Retrieval**: Uses the YouTube Transcript API to extract video transcripts from video URLs.
-- **Summarization with Google Gini Pro**: Integrates with Google Gini Pro for summarizing the extracted transcripts.
+- **Summarization with Google Gemini Pro**: Integrates with Google Gemini Pro for summarizing the extracted transcripts.
 - **Customizable Summaries**: Users can modify the summarization prompt to generate summaries tailored to their needs.
 - **Streamlit Interface**: A user-friendly interface for inputting video URLs, customizing summaries, and viewing results.
 
@@ -25,10 +25,10 @@ This project demonstrates the creation of an end-to-end application using Google
 
 3. **API Configuration**:
 -  **YouTube Transcript API**: Ensure you have API access for retrieving video transcripts.
--  **Google Gini Pro API**: Set up your Google Gini Pro credentials.
+-  **Google Gemini Pro API**: Set up your Google Gemini Pro credentials.
 -  Create an `.env` file in the root directory and add your API keys:
    ```bash
-   GOOGLE_GINI_API_KEY=your_google_gini_pro_api_key
+   GOOGLE_GEMINI_API_KEY=your_google_gemini_pro_api_key
    ```
 
 4. **Run the Application**:
@@ -49,7 +49,7 @@ This project demonstrates the creation of an end-to-end application using Google
 - Modify the summarization prompt to customize the output summary. The default prompt generates a concise summary of around 250 words.
   
 **Step 4: Summarize Transcript**
-- The app sends the transcript and prompt to Google Gini Pro, which returns a summary tailored to the prompt.
+- The app sends the transcript and prompt to Google Gemini Pro, which returns a summary tailored to the prompt.
 
 **Step 5: View Transcript and Summary**
 - The transcript and generated summary are displayed on the Streamlit interface for easy viewing and interpretation.
